@@ -57,34 +57,5 @@ class Deluxe {
 			a++;
 		}
 	}
-	while(decision!=8);
-	System.out.println("Deluxe Hamburger on a white roll with Sausage, Price is 14.45");
-	for(int i=0;i<decision_array.length;i++) {
-		if(decision_array[i]==1) {
-			System.out.println("Added Lettuce for an extra 0.55");
-		}
-		if(decision_array[i]==2) {
-			System.out.println("Added Tomato for an extra 0.95");
-		}
-		if(decision_array[i]==3) {
-			System.out.println("Added Carrot for an extra 0.45");
-		}
-		if(decision_array[i]==4) {
-			System.out.println("Added Cheese for an extra 1.95");
-		}
-		if(decision_array[i]==5) {
-			System.out.println("Added Egg for an extra 1.10");
-		}
-		if(decision_array[i]==1) {
-			System.out.println("Added Lentils for an extra 1.30");
-		}
-		if(decision_array[i]==1) {
-			System.out.println("Added Onions for an extra 0.80");
-		}
-	}
-	}
-	double Deluxe_ret()
-	{
-		return total;
-	}
+	
 }
